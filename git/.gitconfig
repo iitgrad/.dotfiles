@@ -1,0 +1,5 @@
+[user]
+	name = Kevin McQuown
+	email = kevinmcquown@me.com
+[init]
+	defaultBranch = main
