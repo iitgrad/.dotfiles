@@ -1,9 +1,3 @@
-# install nix
-curl -L https://nixos.org/nix/install | sh
-
-# source nix
-
-
 nix-env -iA nixpkgs.zsh \
   nixpkgs.antibody \
   nixpkgs.neovim \
