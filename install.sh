@@ -6,7 +6,8 @@ nix-env -iA nixpkgs.zsh \
   nixpkgs.tmux \
   nixpkgs.stow \
   nixpkgs.bat \
-  nixpkgs.direnv
+  nixpkgs.direnv \
+  nixpdgs.oh-my-zsh
 
 # add zsh into legal shells
 command -v zsh | sudo tee -a /etc/shells
