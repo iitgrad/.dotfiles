@@ -63,11 +63,8 @@ return packer.startup(function(use)
 	use("nvim-lualine/lualine.nvim")
 
 	-- fuzzy finding w/ telescope
-	use({
-		"nvim-telescope/telescope.nvim",
-		tag = "0.1.0",
-		requires = { { "nvim-lua/plenary.nvim" } },
-	})
+  use({"nvim-telescope/telescope-fzf-native.nvim", run = "make"})
+  use({"nvim-telescope/telescope.nvim", tag = "0.1.x" })
 
 	-- autocompletion
 	use("hrsh7th/nvim-cmp") -- completion plugin

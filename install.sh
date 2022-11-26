@@ -1,5 +1,7 @@
 nix-env -iA nixpkgs.zsh \
   nixpkgs.antibody \
+  nixpkgs.git\
+  nixpkgs.tree\
   nixpkgs.neovim \
   nixpkgs.tmux \
   nixpkgs.stow \
