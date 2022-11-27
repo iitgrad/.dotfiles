@@ -3,4 +3,5 @@
 # sudo apt --assume-yes install git
 sudo apt --assume-yes install stow
 sudo apt --assume-yes install zsh
-source ./step2.sh
+# source ./step2.sh
+# source ./step3.sh
