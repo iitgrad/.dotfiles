@@ -3,9 +3,8 @@
 # sudo apt --assume-yes install git
 sudo apt --assume-yes install stow
 sudo apt --assume-yes install zsh
-touch ~/.zshrc
-sudo chsh -s $(which zsh) $USER
-#exec zsh
+source ./step2.sh
+
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
